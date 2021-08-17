@@ -48,7 +48,17 @@
     bottom:200px;
     left:100px;
     max-width: 350px;
+    animation:plane  1s linear infinite;
+    display: inline-block;
     
+}
+@keyframes plane{
+    0%,100%{
+        transform:translateY(-2px);
+    }
+    50%{
+        transform:translateY(2px);
+    }
 }
 .field{
     padding:100px;
