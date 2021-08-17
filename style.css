@@ -82,3 +82,11 @@
     background-position: bottom;
     animation: grass 0.2s linear infinite;
 }
+@keyframes grass{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: -94px 0 ;
+    }
+}
